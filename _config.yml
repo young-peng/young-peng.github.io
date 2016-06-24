@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://young-peng.github.io/" # the base hostname & protocol for your site
 linkedin_username: 瑶-彭-15bb66108
 github_username:  young-peng
-blog_url: "/list.html"
+blog_url: "/blog"
 
 avatar: yes
 #avatar_img_path: "imgs/avatar.jpg""
@@ -22,6 +22,7 @@ avatar: yes
 # automatically whenever you change your GitHub profile picture
 avatar_img_path: "https://avatars3.githubusercontent.com/u/5433835?v=3&s=460"
 
+port: 5000
 
 front_img: yes
 front_img_path: "imgs/background.jpg"
@@ -31,7 +32,12 @@ about_footer: false
 favicon_img: yes
 favicon_img_path: "imgs/favicon.ico"
 
-# Build settings
-markdown: kramdown
-
+# defaults:
+#     -
+#         scope:
+#             path:   ""
+#             type:   "blog"
+#         values:
+#             layout: "page"
+#     -
 
