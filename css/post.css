@@ -1,0 +1,35 @@
+body {
+	background-image: url(../imgs/bg_body.png);
+    font-family: Monaco, Helvetica, "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 300;
+    background-color: rgb(253, 253, 253);
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    transform: translate3d(0px, 0px, 0px);
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-nav>li>a{
+	color: #333;
+	font-size: 26px;
+}
+.post{
+	list-style: none;
+	font-size: 18px;
+	padding-right: 40px;
+}
+.post li {
+	line-height: 2;
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.post_c{
+	background: #f4f5f5;
+	padding-bottom: 15px;
+	height: 100%;
+	-webkit-box-shadow: 2px 2px 12px #787878;
+    box-shadow: 2px 2px 12px #787878;
+    border-radius: 3px;
+}
