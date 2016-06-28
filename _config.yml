@@ -31,7 +31,9 @@ about_footer: false
 
 favicon_img: yes
 favicon_img_path: "imgs/favicon.ico"
-
+sass:
+    style: compressed
+    sass_dir: _sass
 # defaults:
 #     -
 #         scope:
